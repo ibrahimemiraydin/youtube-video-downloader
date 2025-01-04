@@ -1,0 +1,143 @@
+/* General QWidget Styles */
+QWidget {
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* Title Label */
+QLabel#title_label {
+    font-size: 28px;
+    font-weight: bold;
+    color: #5A9BFF;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Status Label */
+QLabel#status_label {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    text-align: center;
+    font-style: italic;
+}
+
+/* URL Input */
+QLineEdit {
+    background-color: #3C3F41;
+    border: 2px solid #5A9BFF;
+    border-radius: 12px;
+    padding: 12px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+QLineEdit:focus {
+    border-color: #4F7DFF;
+    background-color: #2A2A2A;
+}
+
+/* ComboBox for Quality */
+QComboBox {
+    background-color: #3C3F41;
+    border: 2px solid #5A9BFF;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+QComboBox:focus {
+    border-color: #4F7DFF;
+    background-color: #2A2A2A;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #5A9BFF;
+    border: none;
+    border-radius: 20px;
+    color: #FFFFFF;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #5A9BFF;
+}
+
+QPushButton:hover {
+    background-color: #4A8ED6;
+}
+
+QPushButton:pressed {
+    background-color: #387AB7;
+}
+
+QPushButton:disabled {
+    background-color: #555555;
+    color: #999999;
+}
+
+/* Progress Bar */
+QProgressBar {
+    background-color: #333333;
+    border: 1px solid #555555;
+    border-radius: 12px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+QProgressBar::chunk {
+    background-color: #5A9BFF;
+    border-radius: 12px;
+}
+
+/* Read-Only Line Edit (for folder selection) */
+QLineEdit[readOnly="true"] {
+    background-color: #3C3F41;
+    color: #999999;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* File Dialog */
+QFileDialog {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+/* Scrollbar Styles */
+QScrollBar:vertical {
+    background: #444444;
+    width: 10px;
+}
+
+QScrollBar::handle:vertical {
+    background: #5A9BFF;
+    border-radius: 5px;
+}
+
+/* Focused Element Border Shadow */
+QWidget:focus {
+    border: 2px solid #4F7DFF;
+}
+
+/* Hover Effect on ComboBox and LineEdit */
+QComboBox:hover, QLineEdit:hover {
+    border-color: #4F7DFF;
+    background-color: #2A2A2A;
+}
+
+/* General Improvements */
+QPushButton:focus {
+    border-color: #4F7DFF;
+}
+
+QProgressBar {
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
