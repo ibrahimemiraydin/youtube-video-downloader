@@ -47,4 +47,4 @@ db.sqlite3-journal
 .pybuilder/
 target/
 
-.ffmpeg
+ffmpeg
